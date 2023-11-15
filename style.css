@@ -1,0 +1,1270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+
+header{
+    /* background-repeat: no-repeat; */
+    background-image: linear-gradient(rgba(231, 231, 231, 0),rgba(63, 63, 63, 0.644)),url(images/salon-du-mariage-paris-263448-1200-630.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    
+}
+nav ul li{
+    margin-left: 2%;
+    list-style: none; 
+    width: 150px;
+    height: 35px;
+    /* border: 2px solid rgb(255, 255, 255); */
+    border-radius: 50px;
+    /* background: rgb(0, 0, 0); */
+    background: white;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+
+    
+    
+}
+nav ul li:hover{
+    background: whitesmoke;
+    color: black;
+    
+}
+nav ul li a{
+   text-decoration: none;
+   /* color: rgb(233, 233, 233); */
+   color: black;
+   font-size: 1.2rem;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+nav ul li a:hover{
+    color:black;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(255, 194, 82);
+}
+.head h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: rgba(255, 21, 21, 0);
+    padding-left: 15%;
+    padding-right: 15%;
+padding-top: 3%;
+}
+marquee {
+    margin-left: 5%;
+    margin-right: 50%;
+    
+   
+}
+marquee img{
+    height: 120px;
+    width: 150px;
+    border-radius: 50%;
+}
+marquee h3{
+    
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    color:rgb(192, 192, 192);
+    font-weight: bold;
+}
+
+
+/* section 1 */
+.sect_1{
+    background: #a5a3a36e;
+}
+
+.sect_1 h1{
+    text-align: center;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-size: 2.5rem;
+    color: #ffa45a;
+    padding-top: 5%;
+    font-family: Lato;
+
+}
+.sect_1 p{
+    font-family: Poppins;
+    font-size: 1.2rem;
+    color: #2b2a28;
+    padding: 2% 12%;
+}
+
+.sect_1 .di1{
+    display: flex;  
+    justify-content: space-between; 
+}
+
+.sect_1 .di1 .a {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.sect_1 .di1 .a h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffc18f;
+}
+.sect_1 .di1 .a p {
+    margin-left: -10%;
+}
+.sect_1 .di1 .b {
+    margin: 0% 3%;
+}
+.sect_1 .di1 .b h2{
+    margin-top: 20%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: #ffa45a;
+}
+.sect_1 .di1 .b .pos{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    z-index: 1;
+    top: -200px;
+    left: 35%;
+}
+.sect_1 .di1 .c {
+    margin-left: 5%;
+      margin-top: 5%;
+    
+}
+.sect_1 .di1 .c h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fca055;
+}
+.sect_1 .di1 .c p {
+    margin-left: -10%;
+  
+}
+.sect_1 .di1 .a img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.ov{
+    overflow: hidden;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+}
+.sect_1 .di1 .a img:hover{
+    overflow: hidden;
+    transform: scale(2.5);
+    transition: 5s;
+}
+
+.sect_1 .di1 .a button{
+    width: 100px;
+    height: 35px;
+    border: 2px solid rgb(192, 192, 192);
+    background: white;
+}
+.sect_1 .di1 .a button a{
+    text-decoration: none;
+    color: #2b2a28;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sect_1 .di1 .a button:hover{
+    background: #a5a3a3;
+}
+
+.sect_1 .di1 .b img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-top: 15%;
+    border: 5px solid rgb(255, 220, 191);
+}
+.ove{
+    /* overflow: hidden; */
+    /* width: 500px;
+    height: 500px; */
+    /* border-radius: 50%; */
+    /* margin-top: 15%; */
+    /* border: 5px solid rgb(255, 220, 191); */
+   
+   
+}
+/* .sect_1 .di1 .b img:hover{
+    overflow: hidden;
+    transform: scale(2.5);
+    transition: 5s;
+} */
+
+.sect_1 .di1 .c img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.ov{
+    overflow: hidden;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+}
+.sect_1 .di1 .c img:hover{
+    overflow: hidden;
+    transform: scale(2.5);
+    transition: 5s;
+}
+.sect_1 .di1 .c button{
+    width: 100px;
+    height: 35px;
+    border: 2px solid rgb(192, 192, 192);
+    background: white;
+}
+.sect_1 .di1 .c button a{
+    text-decoration: none;
+    color: #2b2a28;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sect_1 .di1 .c button:hover{
+    background: #a5a3a3;
+}
+
+.sect_1 .ic0{
+    display: flex;
+    justify-content: center;
+}
+
+.sect_1 .ic0 img{
+    height: 30px;
+    width: 100px;
+    opacity: 50%;
+    filter: brightness(0);
+    margin: 1.1%;
+}
+/* .section 2 */
+
+.sect_2{
+    background-image: linear-gradient(rgba(29, 28, 28, 0.377),rgba(8, 8, 8, 0.767)),url(images/mariage-n4juoxeonnwvnb9q11cx7rpe1litmixman1e78pr0w.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+.sect_2 img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.ali{
+    overflow: hidden;
+   width: 300px;
+   height: 200px;
+   border-radius: 10px;
+}
+.sect_2 img:hover{
+    overflow: hidden;
+    transform: scale(2.5);
+    transition: 5s;
+}
+.sect_2 .alian{
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 10%;
+}
+.sect_2 .alian p{
+    color: white;
+    padding-right: 10%;
+}
+.sect_2 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ff564adc;
+    text-align: center;
+    padding: 3%;
+}
+.sect_2 h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding-left: 10%;
+padding-right: 10%;
+}
+.sect_2  button{
+    width: 100px;
+    height: 35px;
+    border: 2px solid rgb(192, 192, 192);
+    background: white;
+}
+.sect_2 button a{
+    text-decoration: none;
+    color: #2b2a28;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sect_2 button:hover{
+    background: #a5a3a3;
+}
+
+/* .section 3 */
+.sect_3{
+    background: #a5a3a331;
+    height: 852px;
+    /* margin-top: 10%; */
+}
+.sect_3 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    padding-left: 5%;
+    color: #ffc18f;
+    padding-top: 5%;
+}
+.sect_3 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    color: #2b2a28;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+.sect_3 .equi{
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 5%;
+}
+.sect_3 .eq h3{
+    margin-left: 10%;
+    padding-top: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: #a5a3a3;
+    
+}
+.sect_3 .eq p{
+    margin-left: 5%;
+}
+.sect_3 .eq button{
+    margin-left: 10%;
+    width: 100px;
+    height: 35px;
+    border: 2px solid rgb(192, 192, 192);
+    background: white;
+}
+
+.sect_3 button a{
+    text-decoration: none;
+    color: #2b2a28;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sect_3 button:hover{
+    background: #a5a3a3;
+}
+
+.sect_3 .img{
+    width: 500px;
+    height: 500px;
+    border: 5px solid rgba(255, 135, 88, 0.397);
+    border-radius: 50%;
+    margin-top: 5%;
+}
+
+/* section 4 */
+.sect_4{
+    background: #ffc18f49;
+    height: 100%;
+    /* margin-top: 10%; */
+}
+.sect_4 h1{
+    text-align: center;
+    padding: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    color:#ffc18f;
+}
+.sect_4 .z1{
+    position:absolute;
+    z-index: 3;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 5px solid white;
+    left: 12%;
+    
+}
+.sect_4 .z2{
+    position:relative;
+    z-index: 2;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid white;
+    left: 38.5%;
+    top: 190px;
+    
+}
+.sect_4 .z3{
+    position:absolute;
+    z-index: 1;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    left: 58%;
+    border: 5px solid white;
+    
+}
+.sect_4 .or{
+    margin-top: 20%;
+}
+.sect_4 h3{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: #8a6a29;
+    padding: 0% 15%;
+}
+.sect_4 p{
+    padding: 1.5% 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    /* color: #2b2a28; */
+}
+
+.sect_4 .butt{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+.sect_4  button{
+    width: 150px;
+    height: 35px;
+    border: 2px solid rgb(192, 192, 192);
+    background: white;
+}
+
+.sect_4 button a{
+    text-decoration: none;
+    color: #2b2a28;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sect_4 button:hover{
+    background: #a5a3a3;
+}
+
+/* section 5 */
+.sect_5{
+    /* background-image: linear-gradient(rgba(10, 10, 10, 0.76),rgba(15, 15, 15, 0.315),rgba(10, 10, 10, 0.671)); */
+    margin: 5% 10%;
+    border-radius: 10px;
+    
+}
+.sect_5 h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    padding: 0% 10%;
+    padding-top: 10%;
+    color: rgb(18, 120, 209);
+}
+.sect_5 .pro{
+    display: flex;
+    justify-content: center;
+    padding: 2% 0%;
+}
+.sect_5 p{
+    font-size: 1.1rem;
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1.1% 10%;
+}
+
+.sect_5  button{
+   background: #0c0b0b7a;
+   border: none;
+   color: white;
+}
+
+
+.sect_5 button:hover{
+    background: #0a0a0a;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.comment{
+    margin: 0% 27%;
+    margin-top: 10ù;
+}
+.comment h6{
+   font-size: Lato;
+   font-size: 1.5rem;
+   background: rgba(203, 255, 99, 0.39);
+   text-align: center;
+   padding: 2%;
+   width: 600px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+.comment textarea{
+    width: 600px;
+    height: 150px;
+    border: 10px solid rgba(203, 255, 99, 0.39);
+margin-top: -1.5%;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.comment button{
+    background: yellowgreen;
+    color: whitesmoke;
+    text-align: center;
+    width: 130px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10%;
+
+}
+.comment button:hover{
+    background:  #43af05 ;
+}
+
+
+
+/* pages robes */
+.ic{
+    display: flex;
+    justify-content: right;
+  
+}
+.ic img{
+   width: 150px;
+   height: 35px; 
+   margin: 8% 1.1%;
+   opacity: 100%;
+   filter: brightness(0);
+
+}
+
+.sect_6 .ic2{
+    display: flex;
+    justify-content: center;
+}
+.ic2 img{
+    margin: 5% 5%;
+    width: 150px;
+    height: 80px;
+    opacity: 50%;
+ 
+}
+.sect_6 h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    color: rgb(248, 86, 11);
+    padding: 2% 0%;
+}
+.sect_6 .rob img{
+    width: 200px;
+    height: 150px;
+    border: 5px solid rgba(255, 248, 248, 0.61);
+    border-radius: 10px;
+}
+.sect_6 .rob{
+    display: flex;
+    justify-content: center;
+    margin: 2% 10%;
+    flex-wrap: wrap;
+    
+}
+.sect_6 .i{
+    margin: 0% 15%;
+    font-size: 1.3rem;
+}
+.sect_6 .p{
+    margin: 0% 15%;
+    padding-bottom: 3%;
+}
+.irob{
+    overflow: hidden;
+    width: 200px;
+    height: 150px;
+    /* border: 5px solid rgba(128, 128, 128, 0.61);
+    border-radius: 10px; */
+    
+}
+
+.sect_6 .rob img:hover{
+    overflow: hidden;
+    transform: scale(2.5);
+    transition: 5s;
+    
+
+}
+
+.sect_6 h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: rgb(248, 86, 11);
+    padding: 2% 0%;
+}
+
+.sect_6 .bouti{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.sect_6 .bouti img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    border: 4px solid rgba(95, 158, 160, 0.61);
+}
+.bou{
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    /* border: 4px solid rgba(95, 158, 160, 0.61); */
+}
+.sect_6 .bouti p{
+    padding-left: 5%;
+    padding-right: 20%;
+    padding-top: 2%;
+}
+
+.sect_6 .bouti img:hover{
+    overflow: hidden;
+    transform: scale(2.5);
+    transition: 5s;
+}
+
+.sect_6 .butt2 button{
+    width: 135px;
+    height: 35px;
+    border-radius: 50px;
+    margin: 10%;
+}
+.sect_6 .butt2 button:hover{
+    background: rgb(255, 187, 0);
+    color: white;
+}
+
+.sect_6 .butt2 a{
+    text-decoration: none;
+    color: rgb(39, 38, 38);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.sect_6 .butt2 a:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+/* section 7 */
+.sect_7{
+    background: rgba(112, 112, 107, 0.438);
+    /* padding-bottom: 10%; */
+}
+.sect_7 .ic3{
+    display: flex;
+    justify-content: center;
+}
+.sect_7 .ic3 img{
+    width: 150px;
+    height: 100px;
+    margin: 5% 2%;
+    border-radius: 10px;
+    
+}
+.sect_7 h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    color: rgb(248, 86, 11);
+    padding: 2% 0%;
+}
+.sect_7 .disp2 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: rgb(248, 86, 11);
+}
+
+.sect_7 .disp{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+.sect_7 .dis1 img{
+    width: 200px;
+    height: 300px;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+.sect_7 .dis2 img{
+    width: 220px;
+    height: 200px;
+    margin: 1.1%;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+.sect_7 p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    color: #2b2a28;
+    padding-top: 2%;
+}
+
+.sect_7 .butt3 button{
+    width: 135px;
+    height: 35px;
+    border-radius: 50px;
+    margin: 1.1% 28%;
+    background: rgb(255, 136, 0);
+}
+.sect_7 .butt3 button:hover{
+    background: white;
+    color: black;
+}
+
+.sect_7 .butt3 a{
+    text-decoration: none;
+    color: rgb(39, 38, 38);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.sect_7 .butt3 a:hover{
+    color: black;
+}
+.sect_7 .log{
+    display: flex;
+    justify-content: center;
+}
+.sect_7 .log img{
+    width: 150px;
+    height: 80px;
+    border-radius: 15px;
+    margin: 5% 1.1%;
+    margin-bottom: 10%;
+}
+
+/* section 8 */
+
+.sect_8{
+    background: #ffc18f17;
+    padding-bottom: 10%;
+}
+.sect_8 .ic4{
+    display: flex;
+    justify-content: center;
+}
+.sect_8 .ic4 img{
+    height: 40px;
+    width: 100px;
+    margin: 5% 1.1%;
+    border: none;
+    margin: 3% 5%;
+}
+
+.sect_8 h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    color: rgb(248, 86, 11);
+    padding: 2% 0%;
+}
+
+.sect_8 .all{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5% 10%;
+}
+.sect_8 .al{
+    margin: 3% 1%;
+}
+.sect_8 .al img{
+    width: 200px;
+    height: 150px;
+    border: 4px solid rgb(192, 192, 192);
+    border-radius: 8px;
+
+}
+.sect_8 h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: rgb(248, 86, 11);
+    padding: 5% 0%;
+}
+.sect_8 h5{
+    padding: 0% 10%;
+}
+
+
+/* .sect_8 .alll{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+} */
+.sect_8  img{
+    width: 300px;
+    height: 200px;
+    border: 4px solid rgba(192, 192, 192, 0.712);
+    border-radius: 10px;
+}
+.sect_8 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: #2b2a28;
+    /* margin: 0% 20%; */
+}
+.sect_8 .i{
+    margin: 5% 0%;
+    font-size: 1.3rem;
+
+}
+.sect_8 .p{
+    /* margin: 0% 15%; */
+    /* padding-bottom: 3%; */
+}
+
+.sect_8 .butt4 button{
+    width: 200px;
+    height: 35px;
+    border-radius: 50px;
+    margin: 2% 40%;
+    background: rgb(255, 136, 0);
+    margin-bottom: 10%;
+}
+.sect_8 .butt4 button:hover{
+    background: white;
+    color: black;
+}
+
+.sect_8 .butt4 a{
+    text-decoration: none;
+    color: rgb(39, 38, 38);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.sect_8 .butt4 a:hover{
+    color: black;
+}
+.sect_8 .di{
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    /* margin-right: 10%; */
+}
+
+.sect_8 .bo button{
+    width: 100px;
+    height: 35px;
+    border: 2px solid rgb(192, 192, 192);
+    background: white;
+    margin-bottom: 5%;
+}
+.sect_8 .bo button a{
+    text-decoration: none;
+    color: #2b2a28;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sect_8 .bo button:hover{
+    background: #a5a3a3;
+}
+
+.sect_8 p{
+    padding-left: 1%;
+    padding-right: 20%;
+    padding-top: 2%;
+}
+/* section 9 */
+.sect_9{
+    background: white;
+}
+.sect_9 .ic0{
+    display: flex;
+    justify-content: center;
+    background: #d4d4d496;
+    
+}
+.sect_9 .ic0 img{
+    height: 50px;
+    width: 100px;
+    opacity: 50%;
+    filter: brightness(0);
+    margin: 5%;
+}
+
+.sect_9 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: rgb(248, 86, 11);
+    text-align: center;
+}
+.sect_9 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 3%;
+}
+.sect_9 .deco{
+    background: #a5a3a356;
+}
+.sect_9 .dec{
+    display: flex;
+    margin: 0% 5%;
+    margin-top: 10%;
+    padding-bottom: 5%;
+    
+}
+.sect_9 .dec img{
+    height: 375px;
+    width: 250px;
+    border: 4px solid white;
+    
+}
+.sect_9 .sep{
+    margin: 0% 2%;
+    /* margin-bottom: 2%; */
+}
+.sect_9 h3{
+    background: white;
+    text-align: center;
+}
+.sect_9 h4{
+    padding: 0% 7%;
+}
+
+.sect_9 button{
+    width: 150px;
+    height: 35px;
+    border: 2px solid rgb(192, 192, 192);
+    background: white;
+    margin: 2% 7%;
+}
+.sect_9  button a{
+    text-decoration: none;
+    color: #2b2a28;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sect_9 button:hover{
+    background: #a5a3a3;
+}
+/* section 10 */
+.sect_10{
+    background: #a5a3a356;
+}
+.sect_10 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 3%;
+}
+.sect_10 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    /* color: rgb(255, 255, 255); */
+    text-align: center;
+    padding: 5%;
+    background: #a5a3a3;
+}
+.sect_10 .dis{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sect_10 img{
+    width: 300px;
+    height: 200px;
+    border: 5px solid white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.sect_10 h5{
+    background: white;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+ 
+/* section 11 */
+.sect_11 
+{
+    background: #a5a3a356;
+    
+
+}
+
+.sect_11 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.sect_11 p{
+    margin: 1.1% 5%;
+}
+.sect_11 img{
+    width: 400px;
+    height: 250px;
+    border: 4px solid white;
+    border-radius: 5px;
+    object-fit: cover;
+    
+}
+.sect_11 .content{
+    display: flex;
+    margin-left: 1%;
+    margin-right: 5%;
+}
+
+.sect_11 .content{
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+   
+}
+.sect_11 .content .box{
+    overflow: hidden;
+    position: relative;
+    height: 250px;
+    transition: 0.5s;
+    
+}
+
+.box .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+    transform: translateX(100%);
+    transition: 0.5s;
+}
+
+.box .content p:nth-child(3){
+    margin-bottom: 25px;
+
+}
+.box:hover{
+    box-shadow: 0 0 10px #43af05;
+}
+.box:hover .content{
+    transform: translateX(0);
+}
+
+/* index */
+.h h1{
+text-align: center;
+color: rgb(255, 204, 142);
+filter: brightness(2);
+padding: 0% 10%;
+font-family: Lato;
+}
+.index button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin: 0% 3%;
+    
+}
+.index button a{
+    color: white;
+    text-decoration: none;
+}
+.b1{
+    background: rgb(0, 140, 255);
+    
+}
+.b2{
+    background: red;
+}
+    .b1:hover{
+        background: yellowgreen;
+    }
+    .b2:hover{
+        background: green;
+    }
+.index{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 5%; */
+    
+}
+
+/* formulaire inscription */
+.form{
+    margin: 0% 25%;
+    margin-top: -2%;
+    background: white;
+}
+.form form{
+    padding: 3% 20%;
+}
+.np{
+    display: flex;
+    
+}
+.np .in{
+    margin-left: 10%;
+}
+.np label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.np input{
+    width: 200px;
+    border: none;
+    border-bottom: 3px solid black;
+    
+}
+
+.suit label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 2%;
+}
+.suit input{
+    width: 422px;
+    border: none;
+    border-bottom: 3px solid black;
+}
+.suit button{
+    margin: 4% 0%;
+    text-align: center;
+    background: rgb(33, 33, 248);
+    border: none;
+    color: white;
+    width: 130px;
+    height: 40px;
+
+}
+.suit button:hover{
+    background: #43af05;
+}
+.b3{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background: #43af05;
+    text-align: center;
+}
+.b3 a{
+    text-decoration: none;
+    color: white;
+}
+.b3:hover{
+    background: yellowgreen;
+}
+.b3 a:hover{
+    color: white;
+    text-decoration: none;
+}
+.b4{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background: rgba(255, 0, 0, 0.781);
+    text-align: center;
+}
+.b4 a{
+    text-decoration: none;
+    color: white;
+}
+.b4:hover{
+    background: red;
+}
+.b4 a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+/* connexion */
+
+.ne label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 2%;
+}
+.ne input{
+    width: 300px;
+    border: none;
+    border-bottom: 3px solid black; 
+}
+
+.nom{
+    margin: 0% 2%;
+    font-family: Lato;
+    font-size: 1.2rem;
+    color: rgb(48, 41, 41);
+    /* margin-left: 5%; */
+}
+.nom button{
+    width: 150px;
+    height: 35px;
+    border: none;
+    background: rgba(255, 0, 0, 0.582);
+    border-radius: 50px;
+    margin-left: %;
+}
+.nom button a{
+    text-decoration: none;
+    color: white;
+}
+.nom button:hover{
+    background: red;
+}
+
+/* footer */
+footer{
+    background: gainsboro;
+    
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.foot a{
+    text-decoration: none;
+    color: #0c0b0b;
+}
+.foot .ff{
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f44336;
+}
+.foot .icon{
+    font-size: 1.3em;
+    margin: 0% 4%;
+    padding-bottom: 3%;
+
+}

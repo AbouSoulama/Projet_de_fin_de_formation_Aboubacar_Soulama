@@ -37,7 +37,7 @@
         <div class="ne">
             <div>
                 <label for="">Email ou nom utilisateur</label><br>
-                <input type="text" name="nom" id="Nom" placeholder="Entré votre email ou nom utilisateur">
+                <input type="text" name="nom_utilisateur" id="Nom_utilisateur" placeholder="Entré votre email ou nom utilisateur">
             </div>
             <div>
                 <label for="" class="in">Mot de passe</label><br>

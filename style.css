@@ -1087,7 +1087,7 @@ filter: brightness(2);
 padding: 0% 10%;
 font-family: Lato;
 }
-.index button{
+/* .index button{
     width: 150px;
     height: 40px;
     border: none;
@@ -1098,18 +1098,18 @@ font-family: Lato;
 .index button a{
     color: white;
     text-decoration: none;
-}
-.b1{
+} */
+.index .b1{
     background: rgb(0, 140, 255);
     
 }
-.b2{
+.index .b2{
     background: red;
 }
-    .b1:hover{
+.index .b1:hover{
         background: yellowgreen;
     }
-    .b2:hover{
+    .index .b2:hover{
         background: green;
     }
 .index{

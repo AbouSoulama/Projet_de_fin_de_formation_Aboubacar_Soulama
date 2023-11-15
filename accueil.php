@@ -45,17 +45,17 @@ die('Erreur : '.$e->getMessage());
   
     <div class="nom">
     <?php
-    if ($_SESSION['nom']) {
-      echo $_SESSION['nom'];
-      echo '<button><a href="connexion.php">Déconnexion</a></button>';
+    if ($_SESSION['nom_utilisateur']) {
+      echo $_SESSION['nom_utilisateur'];
+      echo '<button><a href="deconnexion.php">Déconnexion</a></button>';
     } else {
-      ?>
+      echo '
       <div class="index">
-            <button class="b1"><a href="inscription.php">S'enregistrer</a></button>
+            <button class="b1"><a href="inscription.php">Enregistrer_vous</a></button>
             <button class="b2"><a href="connexion.php">Se connecter</a></button>    
-      </div>      
-      
-      <?php }?>
+      </div>' ;
+    }
+       ?>
   
     
     
@@ -223,33 +223,18 @@ die('Erreur : '.$e->getMessage());
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
         <div class="container">
         
-          <div class="carousel-caption text-start">
+        <?php 
+             $req = $bdd->query("SELECT * FROM commentaire");
+              while($user= $req->fetch()){
+          ?>
+        <div class="carousel-caption text-start">
           <div class="pro"><img src="images/64228f3e50a1d9bb4bd40b9d_tiffany-r-tiffany-l-1000x1000-p-500.jpg" alt="" style="height: 100px;width: 100px;border-radius: 50%;" alt=""></div>
           <h5>Nom</h5>
-          <p class="opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo similique temporibus mollitia, nam eligendi accusantium saepe delectus ex perspiciatis totam nulla iure qui unde possimus facere expedita ea, vitae consequatur?<p>
-          <!-- <p><a class="btn btn-lg btn-primary" href="#">commenter</a></p> -->
+          <p class="opacity-75"><?php echo $user['texte'] ?><p>
           </div>
         </div>
       </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>One more for good measure.</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-          </div>
-        </div>
-      </div>
+      <?php } ?>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -267,8 +252,8 @@ die('Erreur : '.$e->getMessage());
         
            <div class="comment">
             <h6>Commentaire</h6>
-                <form action="">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mettez votre commentaire"></textarea> <br>
+                <form action="traitement3.php" method="post">
+                    <textarea name="texte" id="Texte" cols="30" rows="10" placeholder="Mettez votre commentaire"></textarea> <br>
                    <button type="submit">Soumettre</button>
                  </form>
               </div>

@@ -1,3 +1,19 @@
+
+<?php
+session_start();
+try
+{
+$bdd = new PDO('mysql:host=localhost;dbname=site_mariage', 'root', '');
+}
+catch(Exception $e)
+{
+die('Erreur : '.$e->getMessage());
+}
+
+?>
+
+
+
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
   <head>
@@ -182,7 +198,14 @@
       </button>
     </li>
   </ul>
-
+  <div class="nom" style=" margin: 0% 2%;font-family: Lato;font-size: 1.2rem;color: wheat;">
+    <?php
+    if ($_SESSION['nom_utilisateur']) {
+      echo $_SESSION['nom_utilisateur'];
+      echo '<button style="width: 150px; height: 35px; border: none; background: rgba(255, 0, 0, 0.582); border-radius: 50px; margin-left: %;"><a style="text-decoration: none;color: wheat;" href="deconnexion.php">Déconnexion</a></button>';
+    } 
+    ?>
+    </div>
   <!-- <div id="navbarSearch" class="navbar-search w-100 collapse">
     <input class="form-control w-100 rounded-0 border-0" type="text" placeholder="Search" aria-label="Search">
   </div> -->
@@ -308,126 +331,36 @@
         <table class="table table-striped table-sm">
           <thead>
             <tr>
-              <th scope="col">#</th>
-              <th scope="col">Header</th>
-              <th scope="col">Header</th>
-              <th scope="col">Header</th>
-              <th scope="col">Header</th>
+            <th scope="col">Photo</th>
+              <th scope="col">Nom</th>
+              <th scope="col">Prenom</th>
+              <th scope="col">Email</th>
+              <th scope="col">Mot de passe</th>
+              <th scope="col">Nom utilisateur</th>
+              <th scope="col">Contact</th>                      
+              <th scope="col">Statut</th>
+              <th scope="col">Action</th>
+              <th scope="col">Action</th>
             </tr>
           </thead>
           <tbody>
+          <?php 
+  $req = $bdd->query("SELECT * FROM inscription");
+  while($user= $req->fetch()){
+?>
             <tr>
-              <td>1,001</td>
-              <td>random</td>
-              <td>data</td>
-              <td>placeholder</td>
-              <td>text</td>
+            <td> <img src="images/<?php echo $user['photo'] ?>" alt="" style="height:40px;width:40px;border-radius:50px;"></td>
+              <td><?php echo $user['nom'] ?></td>
+              <td><?php echo $user['prenom'] ?></td>
+              <td><?php echo $user['email'] ?></td>
+              <td><?php echo $user['mot_de_passe'] ?></td>
+              <td><?php echo $user['nom_utilisateur'] ?></td>
+              <td><?php echo $user['numero'] ?></td>
+              <td><?php echo $user['statut'] ?></td>
+              <td><button><a href="">Modifié</a></button></td>
+              <td><button><a href="">Supprimé</a></button></td>
             </tr>
-            <tr>
-              <td>1,002</td>
-              <td>placeholder</td>
-              <td>irrelevant</td>
-              <td>visual</td>
-              <td>layout</td>
-            </tr>
-            <tr>
-              <td>1,003</td>
-              <td>data</td>
-              <td>rich</td>
-              <td>dashboard</td>
-              <td>tabular</td>
-            </tr>
-            <tr>
-              <td>1,003</td>
-              <td>information</td>
-              <td>placeholder</td>
-              <td>illustrative</td>
-              <td>data</td>
-            </tr>
-            <tr>
-              <td>1,004</td>
-              <td>text</td>
-              <td>random</td>
-              <td>layout</td>
-              <td>dashboard</td>
-            </tr>
-            <tr>
-              <td>1,005</td>
-              <td>dashboard</td>
-              <td>irrelevant</td>
-              <td>text</td>
-              <td>placeholder</td>
-            </tr>
-            <tr>
-              <td>1,006</td>
-              <td>dashboard</td>
-              <td>illustrative</td>
-              <td>rich</td>
-              <td>data</td>
-            </tr>
-            <tr>
-              <td>1,007</td>
-              <td>placeholder</td>
-              <td>tabular</td>
-              <td>information</td>
-              <td>irrelevant</td>
-            </tr>
-            <tr>
-              <td>1,008</td>
-              <td>random</td>
-              <td>data</td>
-              <td>placeholder</td>
-              <td>text</td>
-            </tr>
-            <tr>
-              <td>1,009</td>
-              <td>placeholder</td>
-              <td>irrelevant</td>
-              <td>visual</td>
-              <td>layout</td>
-            </tr>
-            <tr>
-              <td>1,010</td>
-              <td>data</td>
-              <td>rich</td>
-              <td>dashboard</td>
-              <td>tabular</td>
-            </tr>
-            <tr>
-              <td>1,011</td>
-              <td>information</td>
-              <td>placeholder</td>
-              <td>illustrative</td>
-              <td>data</td>
-            </tr>
-            <tr>
-              <td>1,012</td>
-              <td>text</td>
-              <td>placeholder</td>
-              <td>layout</td>
-              <td>dashboard</td>
-            </tr>
-            <tr>
-              <td>1,013</td>
-              <td>dashboard</td>
-              <td>irrelevant</td>
-              <td>text</td>
-              <td>visual</td>
-            </tr>
-            <tr>
-              <td>1,014</td>
-              <td>dashboard</td>
-              <td>illustrative</td>
-              <td>rich</td>
-              <td>data</td>
-            </tr>
-            <tr>
-              <td>1,015</td>
-              <td>random</td>
-              <td>tabular</td>
-              <td>information</td>
-              <td>text</td>
-            </tr>
+ <?php } ?>
           </tbody>
         </table>
       </div>

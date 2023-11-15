@@ -40,31 +40,24 @@ die('Erreur : '.$e->getMessage());
             <li><a href="#">A propos</a></li>
             <li><a href="#">Contact</a></li>
             
-            <div class="index">
-            <button class="b1"><a href="inscription.php">S'enregistrer</a></button>
-    <button class="b2"><a href="connexion.php">Se connecter</a></button>
-            
-      </div> 
-    
-    <!-- <div class="nom">
+            <div class="nom">
     <?php
-    if ($_SESSION['nom']) {
-      echo $_SESSION['nom'];
-    }?>
+    if ($_SESSION['nom_utilisateur']) {
+      echo $_SESSION['nom_utilisateur'];
+      echo '<button><a href="deconnexion.php">Déconnexion</a></button>';
+    } else {
+      ?>
+      <div class="index">
+            <button class="b1"><a href="inscription.php">S'enregistrer</a></button>
+            <button class="b2"><a href="connexion.php">Se connecter</a></button>    
+      </div>      
+      
+      <?php }?>
+  
+    
     
     </div>
     
-    
-     
-    <div class="dec" style=>
-    <?php
-    if ($_SESSION['nom']) {
-    echo '<button><a href="index.php">Déconnexion</a></button>';
-    } ?>
-    </div> -->
-    
-            
-            
             
             <img src="images/téléchargement (4).jpg" alt="" style="margin-top: -2.5%; height: 100px;margin-left: 2%;border-radius: 50px;">
         
@@ -236,7 +229,6 @@ die('Erreur : '.$e->getMessage());
       <div class="carousel-item active">
         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
         <div class="container">
-        
           <div class="carousel-caption text-start">
           <div class="pro"><img src="images/64228f3e50a1d9bb4bd40b9d_tiffany-r-tiffany-l-1000x1000-p-500.jpg" alt="" style="height: 100px;width: 100px;border-radius: 50%;" alt=""></div>
           <h5>Nom</h5>

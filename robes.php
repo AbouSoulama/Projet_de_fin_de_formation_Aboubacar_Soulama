@@ -28,7 +28,7 @@ die('Erreur : '.$e->getMessage());
 </head>
 <body>
 
-    <header style="   background-image: linear-gradient(rgba(231, 231, 231, 0),rgba(63, 63, 63, 0.644)),url(images/Header-Lucie-et-Maxime-2.jpg);">
+    <header style="   background-image: linear-gradient(rgba(231, 231, 231, 0),rgba(63, 63, 63, 0.644)),url(images/eda49c8b5f20e03d8fff3dffbada6849whatsapp_image_2021-06-25_at_19.21.20.jpeg);">
         <nav>
         <ul>
         <img src="images/téléchargement (4).png" alt="" style="margin-top: -2.5%; height: 100px;border-radius: 50px; margin-right: 2%;">
@@ -42,13 +42,13 @@ die('Erreur : '.$e->getMessage());
    
             <div class="nom">
     <?php
-    if ($_SESSION['nom_utilisateur']) {
+    if (isset($_SESSION['nom_utilisateur'])) {
       echo $_SESSION['nom_utilisateur'];
       echo '<button><a href="deconnexion.php">Déconnexion</a></button>';
     } else {
       echo '
       <div class="index">
-            <button class="b1"><a href="inscription.php">Enregistrer-vous</a></button>
+            <button class="b1" style="   margin-left: 15px;"><a href="inscription.php">Enregistrer-vous</a></button>
             <button class="b2"><a href="connexion.php">Se connecter</a></button>    
       </div>' ;
     }
@@ -301,13 +301,7 @@ die('Erreur : '.$e->getMessage());
            </section>
 
 
-        <div class="comment">
-            <h6>Commentaire</h6>
-                <form action="">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mettez votre commentaire"></textarea> <br>
-                   <button type="submit">Soumettre</button>
-                 </form>
-              </div>
+       
 
 
     </section>

@@ -39,23 +39,24 @@ die('Erreur : '.$e->getMessage());
             <li><a href="accueil.php">Accueil</a></li>
             <!-- <li><a href="#">Coordination</a></li> -->
             <!-- <li><a href="#">Portfolio</a></li> -->
-            <li><a href="#">Service</a></li>
-            <li><a href="#">A propos</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href=" service.php">Nos services</a></li>
+            <li><a href="a_propos.php">A propos</a></li>
+            <li><a href="contact.php">Contact</a></li>
   
-    <div class="nom">
+            <div class="nom">
     <?php
-    if ($_SESSION['nom_utilisateur']) {
+    if (isset($_SESSION['nom_utilisateur'])) {
       echo $_SESSION['nom_utilisateur'];
       echo '<button><a href="deconnexion.php">Déconnexion</a></button>';
     } else {
       echo '
       <div class="index">
-            <button class="b1"><a href="inscription.php">Enregistrer_vous</a></button>
+            <button class="b1"><a href="inscription.php">Enregistrer-vous</a></button>
             <button class="b2"><a href="connexion.php">Se connecter</a></button>    
       </div>' ;
     }
        ?>
+  
   
     
     
@@ -72,6 +73,7 @@ die('Erreur : '.$e->getMessage());
    </nav>
    
    <div style="margin-top: 12%;">
+   <h1 style="margin-top: -10%; color: rgb(254, 105, 20);opacity: 200%;filter:brightness(2);text-align:center;padding:0% 20%;">Bienvenu au service d'assistance pour votre mariage.</h1>
    <!-- <h1>Bienvenu au service d'assistance pour votre mariage</h1> -->
    <div class="he">
    <marquee behavior="" direction="" style="margin-top: 5%;">
@@ -94,7 +96,7 @@ die('Erreur : '.$e->getMessage());
    <h3>Nous somme a votre servie pour vous aidez a organiser votre mariage en vous offrant la totalités des secrvice neccesaires pour organiser un marige inoubliables</h3>
    </marquee>
 </div>
-   <div class="ic" style="margin-top: -7%;">
+   <div class="ic" style="margin-top: -5%;">
     <img src="images/63e8da9968e3262a8ae5e991_engage.png" alt="">
     <img src="images/63e8da99eaf853532d5a5eb8_maroo-p-500.png" alt="">
     <img src="images/63e8da997073807a4727846f_guides-for-brides-p-500.png" alt="">
@@ -120,7 +122,7 @@ die('Erreur : '.$e->getMessage());
      <p style="margin: 2% 10%;padding: 2% 5%;background: rgba(0, 0, 0, 0.815); color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae natus praesentium eos doloribus nemo debitis iusto rerum deleniti error. Fugiat accusamus laboriosam ullam inventore id qui, ratione impedit sint reiciendis.</p>
      <div class="di1">
      <div class="a">
-     <div class="ov"><img src="images/29584-nicole-arienne-ok.jpeg" alt=""></div>
+     <div class="ov"><img src="images/98b2671bb5cb0c5a351029022603ace6.jpg" alt=""></div>
      <h2>Retrouvez les meuilleurs boutique pour les robes de marié</h2>
      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias maiores rem nihil dolore non! Debitis iusto iste quas consequatur quia, dolorum, non necessitatibus culpa sint facilis doloribus, laborum illum tenetur.</p>
      <button><a href="robes.php">voir plus</a></button>
@@ -129,13 +131,13 @@ die('Erreur : '.$e->getMessage());
      <div class="b">
      <h2>Couple parfait</h2>
      <div>
-     <div class="ove"><img src="images/wedding-2595862_1280.jpg" alt=""></div>
+     <div class="ove"><img src="images/7154b9fe16dfc2dca21f2d4dc8f6d0df.jpg" alt=""></div>
      <img class="pos" src="images/wedding-rings-2252438_1280.jpg" alt="">
      </div>
      </div>
     
      <div class="c">
-     <div class="ov"><img src="images/marie-vue-laterale-costume-bleu_23-2149003490.jpg" alt=""></div>
+     <div class="ov"><img src="images/african-wedding-suit-groom--costume-mens-wedding-3pieces--african-wedd.jpg" alt=""></div>
         <h2>Retrouvez les meuilleurs boutique pour les costumes de marié</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, repellendus? Dicta rerum beatae sequi illo excepturi at cupiditate doloremque soluta repellendus natus perspiciatis laborum tempore voluptates, provident in. Harum, placeat.</p>
     <button><a href="robes.php">voir plus</a></button>
@@ -175,7 +177,7 @@ die('Erreur : '.$e->getMessage());
       <!-- <p>Une equipe  a l'écoute et très sympatiques , une prestation adaptée à toute à chacun, <br> je vous recomande fortement et sans hésitation les yeux fermés</p> -->
       <div class="equi">
      <div class="eq">
-     <img class="img" src="images/Team-Wedding-in-Style_front_large.jpg" alt="">
+     <img class="img" src="images/jeune-garcon-afro-americain-tient-plateau-hamburger-au-restaurant_627829-1207.avif" alt="">
      </div>
      <div class="eq">
      <h3>Notre equipe 100% disponible pour vous</h3>
@@ -196,7 +198,7 @@ die('Erreur : '.$e->getMessage());
      <div>
      <img class="z1" src="images/1af3ac54a54ba65fb6a270d16a890375.jpg" alt="">
      <img class="z2" src="images/tapis-blanc-ceremonie.jpg" alt="">
-     <img class="z3" src="images/CcUPuzTR4aoAzBDTJd3CzZ.jpg" alt="">
+     <img class="z3" src="images/Atawa_cristal_Mariage_ADRIEN_LEFEBRE_Hauts_de_France_2018_client1_2c022daf9f.jpg" alt="">
    
      </div>
      
@@ -250,24 +252,18 @@ die('Erreur : '.$e->getMessage());
 
            </section>
         
-           <div class="comment">
-            <h6>Commentaire</h6>
-                <form action="traitement3.php" method="post">
-                    <textarea name="texte" id="Texte" cols="30" rows="10" placeholder="Mettez votre commentaire"></textarea> <br>
-                   <button type="submit">Soumettre</button>
-                 </form>
-              </div>
+        
 
 
            </section>
            
            <section class="sect_1">
             <div class="ic0">
-            <img src="images/nike.webp" alt="">
-            <img src="images/yahoo.webp" alt="">
-            <img src="images/unity.webp" alt="">
-            <img src="images/sony.webp" alt="">
-            <img src="images/samsung.webp" alt="">
+            <img src="images/" alt="">
+            <img src="images/" alt="">
+            <img src="images/" alt="">
+            <img src="images/" alt="">
+            <img src="images/" alt="">
             </div>
             </section>
      

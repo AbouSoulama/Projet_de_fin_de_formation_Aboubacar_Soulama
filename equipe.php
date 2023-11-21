@@ -38,26 +38,23 @@ die('Erreur : '.$e->getMessage());
             <li><a href="accueil.php">Accueil</a></li>
             <!-- <li><a href="#">Coordination</a></li> -->
             <!-- <li><a href="#">Portfolio</a></li> -->
-            <li><a href="#">Service</a></li>
-            <li><a href="#">A propos</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href=" service.php">Nos services</a></li>
+            <li><a href="a_propos.php">A propos</a></li>
+            <li><a href="contact.php">Contact</a></li>
             <div class="nom">
     <?php
-    if ($_SESSION['nom_utilisateur']) {
+    if (isset($_SESSION['nom_utilisateur'])) {
       echo $_SESSION['nom_utilisateur'];
       echo '<button><a href="deconnexion.php">Déconnexion</a></button>';
     } else {
-      ?>
+      echo '
       <div class="index">
-            <button class="b1"><a href="inscription.php">S'enregistrer</a></button>
+            <button class="b1"><a href="inscription.php">Enregistrer-vous</a></button>
             <button class="b2"><a href="connexion.php">Se connecter</a></button>    
-      </div>      
-      
-      <?php }?>
+      </div>' ;
+    }
+       ?>
   
-    
-    
-    </div>
     
             
             
@@ -378,13 +375,7 @@ die('Erreur : '.$e->getMessage());
 
            </section>
      
-           <div class="comment">
-            <h6>Commentaire</h6>
-                <form action="">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mettez votre commentaire"></textarea> <br>
-                   <button type="submit">Soumettre</button>
-                 </form>
-              </div>
+          
      
      
      

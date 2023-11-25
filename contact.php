@@ -67,26 +67,29 @@ die('Erreur : '.$e->getMessage());
    </nav>
    
    <div class="head">
-   <h1 style="margin-top: -5%; color: rgb(254, 105, 20);opacity: 200%;filter:brightness(3);">Contactez-nous .</h1>
-   <marquee behavior="" direction="" style="margin-top: 5%;">
-   <h3>Nous somme a votre servie pour vous aidez a organiser votre mariage en vous offrant la totalités des secrvice neccesaires pour organiser un marige inoubliables</h3>
-   </marquee>
-   <marquee behavior="" direction="right">
-   <img src="images/wedding-2595862_1280.jpg" alt="">
-   <img src="images/6J4YcEYhare9XYeXMN1vII.jpg" alt="">
-   <img src="images/241-08-face_3_191293-168804938795131.jpeg" alt="">
+   <h1 style="margin-top: 0%; color: rgb(254, 105, 20);opacity: 200%;filter:brightness(3);">Contactez-nous .</h1>
+   
+   <marquee behavior="" direction="right" style=" margin-top: 7%;">
+   <img src="images/99df12c05e711dfb597c22df38c9be5f.jpg" alt="">
+   <img src="images/7154b9fe16dfc2dca21f2d4dc8f6d0df.jpg" alt="">
+   <img src="images/108812363-délicieuses-collations-sur-la-table-de-réception-de-mariage-dans-un-restaurant-en-plein-air-de.jpg" alt="">
+   <img src="images/214039112-wedding-first-dance-and-black-couple-in-garden-with-love-celebration-and-excited-for-future-together.jpg" alt="">
+   <img src="images/b004998d5514519c25ff20f605826a96.jpg" alt="">
+   <img src="images/depositphotos_205630694-stock-photo-wedding-day-stylish-african-groom.jpg" alt="">
+   <img src="images/download (3).jpg" alt="">
+   <img src="images/la-dot-un-element-cle-du-mariage-traditionnel-africain.jpeg" alt="">
+   <img src="images/Mariage-voici-le-budget-moyen-que-comptent-depenser-les-futurs-maries-en-2022.jpg" alt="">
+   <img src="images/download (2).jpg" alt="">
    <img src="images/128132165-heureuse-mariée-afro-américaine-en-voile-blanc-souriant-près-du-marié-et-des-fleurs.jpg" alt="">
    <img src="images/heureuse-mariee-marie-lors-ceremonie-mariage-ile-tropicale_53876-85586.jpg" alt="">
    <img src="images/medium-shot-bride-and-groom-posing-outdoors_23-2150639456.jpg" alt="">
    <img src="images/mariee-marie_1303-11471.jpg" alt="">
-   <img src="images/29584-nicole-arienne-ok.jpeg" alt="">
-   <img src="images/Team-Wedding-in-Style_front_large.jpg" alt="">
+   <img src="images/DSC7141.jpg" alt="">
+   <img src="images/smiling-african-american-bridegroom-hugging-260nw-1421123387.webp" alt="">
    
    </marquee>
    
-   <marquee behavior="" direction="">
-   <h3>Nous somme a votre servie pour vous aidez a organiser votre mariage en vous offrant la totalités des secrvice neccesaires pour organiser un marige inoubliables</h3>
-   </marquee>
+   
    
    <div class="ic">
     <img src="images/63e8da9968e3262a8ae5e991_engage.png" alt="">
@@ -112,7 +115,7 @@ die('Erreur : '.$e->getMessage());
 <div class="ro">
 <i class="fa-solid fa-phone" style="color: rgb(4, 5, 4);"></i>
 <h3>Par telephone</h3>
-<p>Magnam nisi maiores cumque quo officia eveniet repellendus ex aperiam sunt, voluptate suscipit fugiat dolor officiis laborum, rem atque. Laboriosam, aliquid sit.</p>
+<p>Magnam nisi maiores cumque quo officia eveniet repellendus ex aperiam sunt, voluptate suscipit fugiat dolor officiis. <br>Tel:+2265544882</p>
 <button><a href="">Une question</a></button>
 </div>
 

@@ -11,8 +11,7 @@
 /* header */
 
 header{
-    /* background-repeat: no-repeat; */
-    background-image: linear-gradient(rgba(231, 231, 231, 0),rgba(63, 63, 63, 0.644)),url(images/Mariage-voici-le-budget-moyen-que-comptent-depenser-les-futurs-maries-en-2022.jpg);
+    background-image: linear-gradient(rgba(231, 231, 231, 0),rgba(63, 63, 63, 0.644)),url(images/eda49c8b5f20e03d8fff3dffbada6849whatsapp_image_2021-06-25_at_19.21.20.jpeg);
     /* background-image: linear-gradient(rgba(231, 231, 231, 0),rgba(63, 63, 63, 0.644)),url(images/); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,6 +72,7 @@ padding-top: 3%;
 marquee {
     margin-left: 5%;
     margin-right: 50%;
+   
     
    
 }
@@ -123,7 +123,7 @@ marquee h3{
 }
 .sect_1 .di1 .a h2 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #ffc18f;
+    color: #fca055;
 }
 .sect_1 .di1 .a p {
     margin-left: -10%;
@@ -1013,6 +1013,7 @@ border-bottom-right-radius: 10px;
 .sect_11 
 {
     background: #a5a3a356;
+    padding-bottom: 10%;
     
 
 }
@@ -1106,6 +1107,7 @@ font-family: Lato;
     
 }
 .index .b2{
+    margin-left: 5%;
     background: red;
 
  
@@ -1218,7 +1220,7 @@ font-family: Lato;
     padding-top: 2%;
 }
 .ne input{
-    width: 300px;
+    width: 400px;
     border: none;
     border-bottom: 3px solid black; 
 }
@@ -1245,6 +1247,10 @@ font-family: Lato;
 }
 .nom button:hover{
     background: red;
+}
+.i i{
+    font-size: 1.5rem;
+    padding: 2%;
 }
 
 /* section 11 */

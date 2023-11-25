@@ -71,25 +71,27 @@ die('Erreur : '.$e->getMessage());
    
    <div class="head">
    <!-- <h1 style="margin-top: -5%; color: rgb(254, 105, 20);opacity: 200%;filter:brightness(3);">Tout savoir a propos de nous.</h1> -->
-   <marquee behavior="" direction="" style="margin-top: 5%;">
-   <h3>Nous somme a votre servie pour vous aidez a organiser votre mariage en vous offrant la totalités des secrvice neccesaires pour organiser un marige inoubliables</h3>
-   </marquee>
-   <marquee behavior="" direction="right">
-   <img src="images/wedding-2595862_1280.jpg" alt="">
-   <img src="images/6J4YcEYhare9XYeXMN1vII.jpg" alt="">
-   <img src="images/241-08-face_3_191293-168804938795131.jpeg" alt="">
+  
+   <marquee behavior="" direction="right" style=" margin-top: 13%;">
+   <img src="images/99df12c05e711dfb597c22df38c9be5f.jpg" alt="">
+   <img src="images/7154b9fe16dfc2dca21f2d4dc8f6d0df.jpg" alt="">
+   <img src="images/108812363-délicieuses-collations-sur-la-table-de-réception-de-mariage-dans-un-restaurant-en-plein-air-de.jpg" alt="">
+   <img src="images/214039112-wedding-first-dance-and-black-couple-in-garden-with-love-celebration-and-excited-for-future-together.jpg" alt="">
+   <img src="images/b004998d5514519c25ff20f605826a96.jpg" alt="">
+   <img src="images/depositphotos_205630694-stock-photo-wedding-day-stylish-african-groom.jpg" alt="">
+   <img src="images/download (3).jpg" alt="">
+   <img src="images/la-dot-un-element-cle-du-mariage-traditionnel-africain.jpeg" alt="">
+   <img src="images/Mariage-voici-le-budget-moyen-que-comptent-depenser-les-futurs-maries-en-2022.jpg" alt="">
+   <img src="images/download (2).jpg" alt="">
    <img src="images/128132165-heureuse-mariée-afro-américaine-en-voile-blanc-souriant-près-du-marié-et-des-fleurs.jpg" alt="">
    <img src="images/heureuse-mariee-marie-lors-ceremonie-mariage-ile-tropicale_53876-85586.jpg" alt="">
    <img src="images/medium-shot-bride-and-groom-posing-outdoors_23-2150639456.jpg" alt="">
    <img src="images/mariee-marie_1303-11471.jpg" alt="">
-   <img src="images/29584-nicole-arienne-ok.jpeg" alt="">
-   <img src="images/Team-Wedding-in-Style_front_large.jpg" alt="">
+   <img src="images/DSC7141.jpg" alt="">
+   <img src="images/smiling-african-american-bridegroom-hugging-260nw-1421123387.webp" alt="">
    
    </marquee>
    
-   <marquee behavior="" direction="">
-   <h3>Nous somme a votre servie pour vous aidez a organiser votre mariage en vous offrant la totalités des secrvice neccesaires pour organiser un marige inoubliables</h3>
-   </marquee>
    
    <div class="ic">
     <img src="images/63e8da9968e3262a8ae5e991_engage.png" alt="">
@@ -163,71 +165,9 @@ die('Erreur : '.$e->getMessage());
 <button><a href="">Voir plus</a></button>
 </section>
 
-<section style="background:#2b2a283f;margin-top: -5%;">
-  <section class="sect_5">
 
-<h1>Témoignages</h1>
-
-<div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-theme="light"  style="margin: 0% 13%;">
-<div class="carousel-indicators">
-<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-</div>
-<div class="carousel-inner">
-<div class="carousel-item active">
-  <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-  <div class="container">
-    <div class="carousel-caption text-start">
-    <div class="pro"><img src="images/64228f3e50a1d9bb4bd40b9d_tiffany-r-tiffany-l-1000x1000-p-500.jpg" alt="" style="height: 100px;width: 100px;border-radius: 50%;" alt=""></div>
-    <h5>Nom</h5>
-    <p class="opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo similique temporibus mollitia, nam eligendi accusantium saepe delectus ex perspiciatis totam nulla iure qui unde possimus facere expedita ea, vitae consequatur?<p>
-    <!-- <p><a class="btn btn-lg btn-primary" href="#">commenter</a></p> -->
-    </div>
-  </div>
-</div>
-<div class="carousel-item">
-  <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-  <div class="container">
-    <div class="carousel-caption">
-      <h1>Another example headline.</h1>
-      <p>Some representative placeholder content for the second slide of the carousel.</p>
-    </div>
-  </div>
-</div>
-<div class="carousel-item">
-  <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
-  <div class="container">
-    <div class="carousel-caption text-end">
-      <h1>One more for good measure.</h1>
-      <p>Some representative placeholder content for the third slide of this carousel.</p>
-      <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-    </div>
-  </div>
-</div>
-</div>
-<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-<span class="visually-hidden">Previous</span>
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-<span class="carousel-control-next-icon" aria-hidden="true"></span>
-<span class="visually-hidden">Next</span>
-</button>
-</div>
-
-
-
-     </section>
-   
   
-     <div class="comment">
-      <h6>Commentaire</h6>
-          <form action="traitement3.php" method="post">
-              <textarea name="texte" id="Texte" cols="30" rows="10" placeholder="Mettez votre commentaire"></textarea> <br>
-             <button type="submit">Soumettre</button>
-           </form>
-        </div>
+     
 
 
 

@@ -34,30 +34,28 @@
     <div class="form">
 
         <form action="traitement.php" method="post">
+        <h1 style="color: #684807;font-size:2rem">Enregistrez-vous a la page avec :</h1>
             <div class="np">
             <div>
-                <label for="">Nom</label><br>
+                <!-- <label for="">Nom</label><br> -->
                 <input type="text" name="nom" id="Nom" placeholder="Entré votre nom">
             </div>
             <div>
-                <label for="" class="in">Prénom</label><br>
+                <!-- <label for="" class="in">Prénom</label><br> -->
                 <input type="text" name="prenom" id="Prenom" placeholder="Entré votre prenom" class="in">
             </div>
-        </div>
+        </div><br>        <div class="suit">
 
-
-        <div class="suit">
-
-            <label for="">Email</label><br>
-            <input type="email" name="email" id="Email" placeholder="Entré un l'email"><br>
-            <label for="">Mot de passe</label><br>
-            <input type="password" name="passe" id="Passe" placeholder="Entré un mot de passe"><br>
-            <label for="">Nom utilisateur</label><br>
-            <input type="text" name="utilisateur" id="Utilisateur" placeholder="Entré un nom utilisateur"><br>
-            <label for="">Tel</label><br>
-            <input type="tel" name="numero" id="Numero" placeholder="Entré un numero de téléphone"><br>
-            <label for="">Photo de profil</label><br>
-            <input type="file" name="photo" id="Photo" placeholder="Entré une photo de profil"><br>
+            <!-- <label for="">Email</label><br> -->
+            <input type="email" name="email" id="Email" placeholder="Entré un l'email"><br><br>
+            <!-- <label for="">Mot de passe</label><br> -->
+            <input type="password" name="passe" id="Passe" placeholder="Entré un mot de passe"><br><br>
+            <!-- <label for="">Nom utilisateur</label><br> -->
+            <input type="text" name="utilisateur" id="Utilisateur" placeholder="Entré un nom utilisateur"><br><br>
+            <!-- <label for="">Tel</label><br> -->
+            <input type="tel" name="numero" id="Numero" placeholder="Entré un numero de téléphone"><br><br>
+            <!-- <label for="">Photo de profil</label><br> -->
+            <input type="file" name="photo" id="Photo" placeholder="Entré une photo de profil"><br><br>
             <button type="submit">Enregistré</button>
 
 

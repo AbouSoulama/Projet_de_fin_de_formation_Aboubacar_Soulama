@@ -34,6 +34,7 @@
     <div class="form">
 
         <form action="traitement2.php" method="post">
+            <h1 style="color: #684807">Connectez-vous a la page avec :</h1>
         <div class="ne">
             <div>
                 <label for="">Email ou nom utilisateur</label><br>
@@ -41,7 +42,10 @@
             </div>
             <div>
                 <label for="" class="in">Mot de passe</label><br>
-                <input type="password" name="mot_de_passe" id="Passe" placeholder="Entré votre mot de passe" class="in">
+                <input type="password" name="mot_de_passe" id="Passe" placeholder="Entré votre mot de passe" class="in"><br>
+                <input type="radio" style="width: 15px;border: 2px solid black; border-bottom: none">
+                <label for="">Afficher mot de passe</label>
+                <a href="" style="margin-left:7%">Mot de passe oublie ?</a>
             </div>
         </div>
 
@@ -49,11 +53,17 @@
         <div class="suit">
             <button type="submit">Connexion</button>
 
-
+          
         </div>
-            
-        
-        
+
+        <h5>Ou rejoignez nous avec :</h5>
+
+            <div class="i">
+        <a href=""><i class="fa-brands fa-facebook icon"></i></a>
+        <a href=""> <i class="fa-brands fa-google" style="color: brown;"></i></a>
+        <a href=""><i style="color: green" class="fa-brands fa-square-whatsapp icon"></i></a>
+        <a href=""><i class="fa-brands fa-twitter" ></i></a>
+        </div>
            </form>
 
 

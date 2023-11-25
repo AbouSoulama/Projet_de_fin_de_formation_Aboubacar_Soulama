@@ -24,9 +24,10 @@ die('Erreur : '.$e->getMessage());
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.112.5">
-    <title>Dashboard Template · Bootstrap v5.3</title>
-
+    <title>Site mariage</title>
+    <link rel="shortcut icon" href="images/609544.png"> 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/dashboard/">
+
 
     
 
@@ -202,7 +203,7 @@ die('Erreur : '.$e->getMessage());
     <?php
     if ($_SESSION['nom_utilisateur']) {
       echo $_SESSION['nom_utilisateur'];
-      echo '<button style="width: 150px; height: 35px; border: none; background: rgba(255, 0, 0, 0.582); border-radius: 50px; margin-left: %;"><a style="text-decoration: none;color: wheat;" href="deconnexion.php">Déconnexion</a></button>';
+      
     } 
     ?>
     </div>
@@ -216,7 +217,7 @@ die('Erreur : '.$e->getMessage());
     <div class="sidebar border border-right col-md-3 col-lg-2 p-0 bg-body-tertiary">
       <div class="offcanvas-lg offcanvas-end bg-body-tertiary" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="sidebarMenuLabel">Fonctionnalités</h5>
+          <h5 class="offcanvas-title" id="sidebarMenuLabel"></h5>
           <!-- <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#sidebarMenu" aria-label="Close"></button> -->
         </div>
         <div class="offcanvas-body d-md-flex flex-column p-0 pt-lg-3 overflow-y-auto">
@@ -232,6 +233,27 @@ die('Erreur : '.$e->getMessage());
                 <svg class="bi"><use xlink:href="#file-earmark"/></svg>
                 Listes des utilisateurs
               </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center gap-2" href="#">
+                <svg class="bi"><use xlink:href="#file-earmark"/></svg>
+                Listes des clients
+              </a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center gap-2" href="#">
+                <svg class="bi"><use xlink:href="#file-earmark"/></svg>
+                Listes des boutiques
+              </a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center gap-2" href="#">
+                <svg class="bi"><use xlink:href="#file-earmark"/></svg>
+                Listes des  service assistance
+              </a>
+            </li>
            
           </ul>
 
@@ -245,7 +267,7 @@ die('Erreur : '.$e->getMessage());
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link d-flex align-items-center gap-2" href="#">
+              <a class="nav-link d-flex align-items-center gap-2" href="deconnexion.php">
                 <svg class="bi"><use xlink:href="#door-closed"/></svg>
               Se déconnecté
               </a>
@@ -271,6 +293,7 @@ die('Erreur : '.$e->getMessage());
       </div>
       <h2>Listes des utilisateurs</h2>
       <div class="table-responsive small">
+        <button class="btn btn-primary" style="margin:2%"><a  style="color:white;text-decoration:none" href="ajouter.php">Ajouter un utilisateur</a></button>
         <table class="table table-striped table-sm">
           <thead>
             <tr>
@@ -300,8 +323,8 @@ die('Erreur : '.$e->getMessage());
               <td><?php echo $user['nom_utilisateur'] ?></td>
               <td><?php echo $user['numero'] ?></td>
               <td><?php echo $user['statut'] ?></td>
-              <td><button style="width: 135px;height: 35px;background: black;border: none;border-radius: 10px;"><a style=" text-decoration: none;color: wheat;" href="">Modifié</a></button></td>
-              <td><button style="width: 135px;height: 35px;background: red;border: none;border-radius: 10px;"><a <a style=" text-decoration: none;color: white;" href="">Supprimé</a></button></td>
+              <td><button style="width: 135px;height: 35px;background: black;border: none;border-radius: 10px;"><a style=" text-decoration: none;color: wheat;" href="modifier.php">Modifié</a></button></td>
+              <td><button style="width: 135px;height: 35px;background: red;border: none;border-radius: 10px;"><a  style=" text-decoration: none;color: white;" href="">Supprimé</a></button></td>
             </tr>
  <?php } ?>
           </tbody>

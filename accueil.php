@@ -73,30 +73,33 @@ die('Erreur : '.$e->getMessage());
    </nav>
    
    <div style="margin-top: 12%;">
-   <h1 style="margin-top: -10%; color: rgb(254, 105, 20);opacity: 200%;filter:brightness(2);text-align:center;padding:0% 20%;">Bienvenu au service d'assistance pour votre mariage.</h1>
+   <h1 style="margin-top: -10%; color: rgb(254, 105, 20);opacity: 200%;filter:brightness(2.5);text-align:center;padding:0% 20%;">Bienvenu au service d'assistance pour votre mariage.</h1>
    <!-- <h1>Bienvenu au service d'assistance pour votre mariage</h1> -->
    <div class="he">
-   <marquee behavior="" direction="" style="margin-top: 5%;">
-   <h3>Nous somme a votre servie pour vous aidez a organiser votre mariage en vous offrant la totalités des secrvice neccesaires pour organiser un marige inoubliables</h3>
-   </marquee>
-   <marquee behavior="" direction="right">
-   <img src="images/wedding-2595862_1280.jpg" alt="">
-   <img src="images/6J4YcEYhare9XYeXMN1vII.jpg" alt="">
-   <img src="images/241-08-face_3_191293-168804938795131.jpeg" alt="">
+   
+   <marquee behavior="" direction="right" style=" margin-top: 7%;">
+   <img src="images/99df12c05e711dfb597c22df38c9be5f.jpg" alt="">
+   <img src="images/7154b9fe16dfc2dca21f2d4dc8f6d0df.jpg" alt="">
+   <img src="images/108812363-délicieuses-collations-sur-la-table-de-réception-de-mariage-dans-un-restaurant-en-plein-air-de.jpg" alt="">
+   <img src="images/214039112-wedding-first-dance-and-black-couple-in-garden-with-love-celebration-and-excited-for-future-together.jpg" alt="">
+   <img src="images/b004998d5514519c25ff20f605826a96.jpg" alt="">
+   <img src="images/depositphotos_205630694-stock-photo-wedding-day-stylish-african-groom.jpg" alt="">
+   <img src="images/download (3).jpg" alt="">
+   <img src="images/la-dot-un-element-cle-du-mariage-traditionnel-africain.jpeg" alt="">
+   <img src="images/Mariage-voici-le-budget-moyen-que-comptent-depenser-les-futurs-maries-en-2022.jpg" alt="">
+   <img src="images/download (2).jpg" alt="">
    <img src="images/128132165-heureuse-mariée-afro-américaine-en-voile-blanc-souriant-près-du-marié-et-des-fleurs.jpg" alt="">
    <img src="images/heureuse-mariee-marie-lors-ceremonie-mariage-ile-tropicale_53876-85586.jpg" alt="">
    <img src="images/medium-shot-bride-and-groom-posing-outdoors_23-2150639456.jpg" alt="">
    <img src="images/mariee-marie_1303-11471.jpg" alt="">
-   <img src="images/29584-nicole-arienne-ok.jpeg" alt="">
-   <img src="images/Team-Wedding-in-Style_front_large.jpg" alt="">
+   <img src="images/DSC7141.jpg" alt="">
+   <img src="images/smiling-african-american-bridegroom-hugging-260nw-1421123387.webp" alt="">
    
    </marquee>
    
-   <marquee behavior="" direction="">
-   <h3>Nous somme a votre servie pour vous aidez a organiser votre mariage en vous offrant la totalités des secrvice neccesaires pour organiser un marige inoubliables</h3>
-   </marquee>
+   
 </div>
-   <div class="ic" style="margin-top: -5%;">
+   <div class="ic" style="margin-top: %;">
     <img src="images/63e8da9968e3262a8ae5e991_engage.png" alt="">
     <img src="images/63e8da99eaf853532d5a5eb8_maroo-p-500.png" alt="">
     <img src="images/63e8da997073807a4727846f_guides-for-brides-p-500.png" alt="">
@@ -119,12 +122,12 @@ die('Erreur : '.$e->getMessage());
      <img src="images/samsung.webp" alt="">
      </div> -->
      <h1>Organiser un mariage inoubliables</h1>
-     <p style="margin: 2% 10%;padding: 2% 5%;background: rgba(0, 0, 0, 0.815); color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae natus praesentium eos doloribus nemo debitis iusto rerum deleniti error. Fugiat accusamus laboriosam ullam inventore id qui, ratione impedit sint reiciendis.</p>
+     <p style="margin: 2% 10%;padding: 2% 5%;background: rgba(0, 0, 0, 0.815); color: white;">Tout pour organiser votre mariage. Commencez à planifier votre mariage avec nous, c'est gratuit !</p>
      <div class="di1">
      <div class="a">
      <div class="ov"><img src="images/98b2671bb5cb0c5a351029022603ace6.jpg" alt=""></div>
      <h2>Retrouvez les meuilleurs boutique pour les robes de marié</h2>
-     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias maiores rem nihil dolore non! Debitis iusto iste quas consequatur quia, dolorum, non necessitatibus culpa sint facilis doloribus, laborum illum tenetur.</p>
+     <p>Votre robe d'un jour <br>Romantique, glam'rock, princesse, élégante ou sexy, trouvez celle qui vous sublimera parmi plus de 5000 modèles de robes de mariée.</p>
      <button><a href="robes.php">voir plus</a></button>
      </div>
     
@@ -139,7 +142,7 @@ die('Erreur : '.$e->getMessage());
      <div class="c">
      <div class="ov"><img src="images/african-wedding-suit-groom--costume-mens-wedding-3pieces--african-wedd.jpg" alt=""></div>
         <h2>Retrouvez les meuilleurs boutique pour les costumes de marié</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, repellendus? Dicta rerum beatae sequi illo excepturi at cupiditate doloremque soluta repellendus natus perspiciatis laborum tempore voluptates, provident in. Harum, placeat.</p>
+        <p>Votre costume d'un jour <br>Romantique, glam'rock, roi, élégant ou sexy, trouvez cellui qui vous sublimera parmi plus de 5000 modèles de costumes de mariée.</p>
     <button><a href="robes.php">voir plus</a></button>
      </div>
     </div>
@@ -151,21 +154,23 @@ die('Erreur : '.$e->getMessage());
      <div>
      
      <h1>Découvrer les boutiques de ventes de bagues alliance</h1>
-     <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati culpa et tenetur non est? Culpa voluptas accusantium aliquam cumque ullam. Est aspernatur autem accusamus inventore, nam saepe sed labore ducimus.</h5>
+     <h5>Vous envisagez d'acheter une bague de fiançailles au Burkina Faso ?
+
+Dans ce guide, nous explorerons les meilleures options de bagues de fiançailles disponibles, y compris les choix traditionnels tels que les diamants, les saphirs, les émeraudes et les rubis, ainsi que la popularité croissante d'options alternatives comme la Moissanite, les diamants de laboratoire et les options innovantes et abordables.</h5>
      <div class="alian">
      <div>
      <div class="ali"><img src="images/téléchargement.jpeg" alt=""></div>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sint ut id minus labore temporibus possimus autem nam incidunt officiis? Eaque necessitatibus minima magni sit? Pariatur nam quis quasi voluptatum!</p>
+     <p>Diamants sont connus pour leur brillance et leur feu, ce qui en fait un choix populaire pour les bagues de fiançailles. Ils sont considérés comme un symbole d'amour et d'engagement depuis des siècles</p>
      <button><a href="aliance.php">voir plus</a></button>
      </div>
      <div>
      <div class="ali"><img src="images/organisateur-mariage.jpg" alt=""></div>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptatum dicta eius dolorum nihil saepe ut quasi veritatis autem impedit! Assumenda rerum omnis illo explicabo numquam doloremque sed dolores deleniti!</p>
+     <p>Diamants sont connus pour leur brillance et leur feu, ce qui en fait un choix populaire pour les bagues de fiançailles. Ils sont considérés comme un symbole d'amour et d'engagement depuis des siècles</p>
      <button><a href="aliance.php">voir plus</a></button>
      </div>
      <div>
      <div  class="ali"><img src="images/alliance-mariage.jpg" alt=""></div>
-     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, eos. Fugiat, exercitationem odio facilis veniam mollitia soluta, tempore impedit officia dolor, vero aliquam repudiandae hic perferendis suscipit harum accusantium itaque?</p>
+     <p>Diamants sont connus pour leur brillance et leur feu, ce qui en fait un choix populaire pour les bagues de fiançailles. Ils sont considérés comme un symbole d'amour et d'engagement depuis des siècles</p>
      <button><a href="aliance.php">voir plus</a></button>
      </div>
      </div>
@@ -182,7 +187,7 @@ die('Erreur : '.$e->getMessage());
      <div class="eq">
      <h3>Notre equipe 100% disponible pour vous</h3>
      <p style="margin: 2% 0%;margin-left: 10%; padding: 2% 5%;background: rgba(255, 255, 255, 0.37); color: black;">Une equipe  a l'écoute et très sympatiques , une prestation adaptée à toute à chacun, je vous recomande fortement et sans hésitation les yeux fermés, officiis totam fugiat, doloribus tempore?
-     <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nesciunt animi molestias ab, magni accusantium amet quod enim facere asperiores tempora sequi nostrum inventore dignissimos, officiis totam fugiat, doloribus tempore?
+     <br><br>Parcourez notre site et accédez à tous les prestataires de votre région en quelques clics.
      <br><br>Maintenant ipsum dolor sit amet consectetur adipisicing elit. Dolor nesciunt animi molestias ab, magni accusantium amet quod enim facere asperiores tempora sequi nostrum inventore dignissimos, officiis totam fugiat, doloribus tempore?</p>
      <button><a href="equipe.php">voir plus</a></button>
      </div>
@@ -197,14 +202,15 @@ die('Erreur : '.$e->getMessage());
      
      <div>
      <img class="z1" src="images/1af3ac54a54ba65fb6a270d16a890375.jpg" alt="">
-     <img class="z2" src="images/tapis-blanc-ceremonie.jpg" alt="">
+     <img class="z2" src="images/espace-mariage-piste-de-danse-et-tables-de-salle-a-manger-2b248d0.jpg" alt="">
      <img class="z3" src="images/Atawa_cristal_Mariage_ADRIEN_LEFEBRE_Hauts_de_France_2018_client1_2c022daf9f.jpg" alt="">
    
      </div>
      
      <div class="or">
      <h3>Organiser votre cérémonie de mariage dans l'un de ces lieux magnifique</h3>
-     <p style="margin: 2% 10%;padding: 2% 5%;background: rgba(63, 11, 11, 0.699); color: white;border-radius: 45%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam explicabo, accusantium dolorum fuga omnis fugit eum dicta. Impedit numquam deleniti optio ex vero, aut perferendis asperiores architecto, ducimus nam quis.</p>
+     <p style="margin: 2% 10%;padding: 2% 5%;background: rgba(63, 11, 11, 0.699); color: white;border-radius: 45%;">L'espace de vos rêves
+Naviguez et choisissez facilement votre lieu de réception parmi des centaines de domaines, restaurants et hôtels dans votre zone.</p>
     <div class="butt"> <button><a href="equipe.php">voir plus</a></button></div>
      </div>
      </section>
@@ -237,6 +243,34 @@ die('Erreur : '.$e->getMessage());
         </div>
       </div>
       <?php } ?>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+          <div class="pro"><img src="images/64228f3e50a1d9bb4bd40b9d_tiffany-r-tiffany-l-1000x1000-p-500.jpg" alt="" style="height: 100px;width: 100px;border-radius: 50%;" alt=""></div>
+            <h1>Amelie</h1>
+            <p class="opacity-75">J'ai vraiment aimé ce site, sa ma beaucoup aidé dans l'organisation de notre mariage.Vraiment ces très fiable, je vous invites a venir a l'utiliser pour organer un mariage plandide..</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Another example headline.</h1>
+            <p>Some representative placeholder content for the second slide of the carousel.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Another example headline.</h1>
+            <p>Some representative placeholder content for the second slide of the carousel.</p>
+          </div>
+        </div>
+      </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>

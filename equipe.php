@@ -67,27 +67,9 @@ die('Erreur : '.$e->getMessage());
    </nav>
     
    <div class="head">
-   <h1 style="margin-top: -5%; color: rgb(248, 86, 11);opacity: 200%;filter:brightness(2.5);">Pour les decoration, la restauration, le lieu de ceremonie</h1>
+   <h1 class="anim" style="margin-bottom: 15%; color: rgb(248, 86, 11);opacity: 200%;filter:brightness(2.5);"></h1>
    
-   <marquee behavior="" direction="right" style=" margin-top: 3%;">
-   <img src="images/99df12c05e711dfb597c22df38c9be5f.jpg" alt="">
-   <img src="images/7154b9fe16dfc2dca21f2d4dc8f6d0df.jpg" alt="">
-   <img src="images/108812363-délicieuses-collations-sur-la-table-de-réception-de-mariage-dans-un-restaurant-en-plein-air-de.jpg" alt="">
-   <img src="images/214039112-wedding-first-dance-and-black-couple-in-garden-with-love-celebration-and-excited-for-future-together.jpg" alt="">
-   <img src="images/b004998d5514519c25ff20f605826a96.jpg" alt="">
-   <img src="images/depositphotos_205630694-stock-photo-wedding-day-stylish-african-groom.jpg" alt="">
-   <img src="images/download (3).jpg" alt="">
-   <img src="images/la-dot-un-element-cle-du-mariage-traditionnel-africain.jpeg" alt="">
-   <img src="images/Mariage-voici-le-budget-moyen-que-comptent-depenser-les-futurs-maries-en-2022.jpg" alt="">
-   <img src="images/download (2).jpg" alt="">
-   <img src="images/128132165-heureuse-mariée-afro-américaine-en-voile-blanc-souriant-près-du-marié-et-des-fleurs.jpg" alt="">
-   <img src="images/heureuse-mariee-marie-lors-ceremonie-mariage-ile-tropicale_53876-85586.jpg" alt="">
-   <img src="images/medium-shot-bride-and-groom-posing-outdoors_23-2150639456.jpg" alt="">
-   <img src="images/mariee-marie_1303-11471.jpg" alt="">
-   <img src="images/DSC7141.jpg" alt="">
-   <img src="images/smiling-african-american-bridegroom-hugging-260nw-1421123387.webp" alt="">
    
-   </marquee>
    
    
    
@@ -118,7 +100,7 @@ die('Erreur : '.$e->getMessage());
      <div class="deco">
      
      <h2>Nos décorations</h2>
-     <h3 style="padding: 3% 5%;margin: 2% 10%;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem reiciendis ad suscipit repellat voluptatem cupiditate sapiente dolores fugiat. Praesentium, tempore quas! Dicta fuga ipsam rerum quaerat soluta veritatis ipsa ex.</h3>
+     <h3 style="padding: 3% 5%;margin: 2% 10%;">Dolor sit amet consectetur adipisicing elit. Quidem reiciendis ad suscipit repellat voluptatem cupiditate sapiente dolores fugiat. Praesentium, tempore quas! Dicta fuga ipsam rerum quaerat soluta veritatis ipsa ex.</h3>
      <div class="dec">
         
        <div class="sep">
@@ -179,7 +161,7 @@ die('Erreur : '.$e->getMessage());
 
      <section class="sect_10">
         <h1>Des lieux que nous vous proposons pour votre évènement</h1>
-        <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi deleniti impedit iure consequuntur illo laborum, rem amet ipsam porro, fugiat iste ex aperiam nostrum blanditiis dignissimos! Soluta doloremque velit sequi.</h3>
+        <h3>Sit amet consectetur adipisicing elit. Animi deleniti impedit iure consequuntur illo laborum, rem amet ipsam porro, fugiat iste ex aperiam nostrum blanditiis dignissimos! Soluta doloremque velit sequi.</h3>
 
 <div class="dis">
 
@@ -240,7 +222,7 @@ die('Erreur : '.$e->getMessage());
      </section>
 
      <section class="sect_11">
-<h1>Notre équipe à votre disposition; n'hésitez pas à nous contacter pour tous besoins</h1>
+<h1>Notre équipe à votre disposition n'hésitez pas à nous contacter pour tous besoins</h1>
 
 <div class="content">
 
@@ -376,9 +358,9 @@ die('Erreur : '.$e->getMessage());
     
     
     
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js" integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="script4.js"></script>
 </body>
 </html>

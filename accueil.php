@@ -73,7 +73,7 @@ die('Erreur : '.$e->getMessage());
    </nav>
    
    <div style="margin-top: 12%;">
-   <h1 style="margin-top: -10%; color: rgb(254, 105, 20);opacity: 200%;filter:brightness(2.5);text-align:center;padding:0% 20%;">Bienvenu au service d'assistance pour votre mariage.</h1>
+   <h1 class="anim" style="margin-top: -12%; color: wheat;;text-align:center;padding:0% 20%;"></h1>
    <!-- <h1>Bienvenu au service d'assistance pour votre mariage</h1> -->
    <div class="he">
    
@@ -357,7 +357,7 @@ Naviguez et choisissez facilement votre lieu de réception parmi des centaines d
     
     
     
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js" integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
     <script src="bootstrap.bundle.min.js"></script>
 </body>

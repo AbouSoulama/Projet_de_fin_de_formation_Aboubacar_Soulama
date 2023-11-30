@@ -66,8 +66,8 @@ die('Erreur : '.$e->getMessage());
         </ul>
    </nav>
    <div class="head">
-   <h1 style="margin-top: 0%; color: rgb(254, 105, 20);opacity: 200%;filter:brightness(3);">Nos service</h1>
-   <marquee behavior="" direction="right" style=" margin-top: 7%;">
+   <h1 style="margin-bottom: 17%; color: rgb(254, 105, 20);opacity: 200%;filter:brightness(3);">Nos service</h1>
+   <!-- <marquee behavior="" direction="right" style=" margin-top: 7%;">
    <img src="images/99df12c05e711dfb597c22df38c9be5f.jpg" alt="">
    <img src="images/7154b9fe16dfc2dca21f2d4dc8f6d0df.jpg" alt="">
    <img src="images/108812363-délicieuses-collations-sur-la-table-de-réception-de-mariage-dans-un-restaurant-en-plein-air-de.jpg" alt="">
@@ -85,7 +85,7 @@ die('Erreur : '.$e->getMessage());
    <img src="images/DSC7141.jpg" alt="">
    <img src="images/smiling-african-american-bridegroom-hugging-260nw-1421123387.webp" alt="">
    
-   </marquee>
+   </marquee> -->
    
    <div class="ic">
     <img src="images/63e8da9968e3262a8ae5e991_engage.png" alt="">
@@ -103,7 +103,7 @@ die('Erreur : '.$e->getMessage());
 
      <section class="sect_12">
 <h1>Nos services</h1>
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique animi incidunt aliquam quisquam eos omnis doloribus, earum quasi distinctio, suscipit sapiente. Laboriosam molestiae nihil vitae eligendi. Harum cum reprehenderit fuga?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia labore, earum tempora laborum cupiditate magni! Deserunt reprehenderit ducimus totam laudantium magni repellat, corporis vel autem earum et, dolorem, numquam molestias!</p>
+<p>Adipisicing elit. Similique animi incidunt aliquam quisquam eos omnis doloribus, earum quasi distinctio, suscipit sapiente. Laboriosam molestiae nihil vitae eligendi. Harum cum reprehenderit fuga?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia labore, earum tempora laborum cupiditate magni! Deserunt reprehenderit ducimus totam laudantium magni repellat, corporis vel autem earum et, dolorem, numquam molestias!</p>
 
 <div class="container">
 
@@ -152,7 +152,7 @@ die('Erreur : '.$e->getMessage());
      <section class="sect_14">
 
       <h1>Pris en charge de la restauration</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, esse doloribus quidem ullam vitae in quia tempora illum, magni ipsa facilis id est quod quo cupiditate corrupti, necessitatibus porro quibusdam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, eligendi. Repellendus dignissimos doloremque optio consequatur voluptates, enim, consequuntur explicabo minima praesentium reiciendis quam labore dicta soluta nulla, aliquid corporis eaque.</p>
+      <p>Remlos ipsum dolor sit amet consectetur adipisicing elit. Tempore, esse doloribus quidem ullam vitae in quia tempora illum, magni ipsa facilis id est quod quo cupiditate corrupti, necessitatibus porro quibusdam.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, eligendi. Repellendus dignissimos doloremque optio consequatur voluptates, enim, consequuntur explicabo minima praesentium reiciendis quam labore dicta soluta nulla, aliquid corporis eaque.</p>
       
       <div class="container">
         <img src="images/77794789-catering-y-comida-para-bodas-y-eventos.jpg" alt="">
@@ -172,7 +172,7 @@ die('Erreur : '.$e->getMessage());
 <div class="container">
 <div>
   <h3>Prendre des photos et les recuperer plutard</h3>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta debitis, natus expedita libero magni velit ipsam veritatis nisi vitae ad voluptatum, ea consectetur nobis repudiandae provident. Numquam atque asperiores accusamus?</p>
+  <p>Bapsum dolor sit amet consectetur adipisicing elit. Soluta debitis, natus expedita libero magni velit ipsam veritatis nisi vitae ad voluptatum, ea consectetur nobis repudiandae provident. Numquam atque asperiores accusamus?</p>
 <button><a href="">Votre demande !</a></button>
 </div>
 

@@ -66,27 +66,7 @@ die('Erreur : '.$e->getMessage());
    </nav>
    
    <div class="head">
-   <h1 style="margin-top: 0%; color: rgb(254, 105, 20);">Les alliances des marié</h1>
-   
-   <marquee behavior="" direction="right" style=" margin-top: 7%;">
-   <img src="images/99df12c05e711dfb597c22df38c9be5f.jpg" alt="">
-   <img src="images/7154b9fe16dfc2dca21f2d4dc8f6d0df.jpg" alt="">
-   <img src="images/108812363-délicieuses-collations-sur-la-table-de-réception-de-mariage-dans-un-restaurant-en-plein-air-de.jpg" alt="">
-   <img src="images/214039112-wedding-first-dance-and-black-couple-in-garden-with-love-celebration-and-excited-for-future-together.jpg" alt="">
-   <img src="images/b004998d5514519c25ff20f605826a96.jpg" alt="">
-   <img src="images/depositphotos_205630694-stock-photo-wedding-day-stylish-african-groom.jpg" alt="">
-   <img src="images/download (3).jpg" alt="">
-   <img src="images/la-dot-un-element-cle-du-mariage-traditionnel-africain.jpeg" alt="">
-   <img src="images/Mariage-voici-le-budget-moyen-que-comptent-depenser-les-futurs-maries-en-2022.jpg" alt="">
-   <img src="images/download (2).jpg" alt="">
-   <img src="images/128132165-heureuse-mariée-afro-américaine-en-voile-blanc-souriant-près-du-marié-et-des-fleurs.jpg" alt="">
-   <img src="images/heureuse-mariee-marie-lors-ceremonie-mariage-ile-tropicale_53876-85586.jpg" alt="">
-   <img src="images/medium-shot-bride-and-groom-posing-outdoors_23-2150639456.jpg" alt="">
-   <img src="images/mariee-marie_1303-11471.jpg" alt="">
-   <img src="images/DSC7141.jpg" alt="">
-   <img src="images/smiling-african-american-bridegroom-hugging-260nw-1421123387.webp" alt="">
-   
-   </marquee>
+   <h1 class="anim" style="margin-bottom: 15%; color: wheat;"></h1>
    
    
    
@@ -124,8 +104,8 @@ die('Erreur : '.$e->getMessage());
      <div class="al"><img src="images/2148463_uploaded_image1_1590023535.jpg" alt=""></div>
      <div class="al"><img src="images/home_alliance_femme.jpg" alt=""></div>
      </div>
-     <h5 style="margin: 2% 10%;padding: 2% 5%;background: black; color: white;border-radius: 50px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit necessitatibus, dolore veritatis corporis nobis earum est, magnam provident enim quibusdam voluptatibus culpa ex natus perspiciatis nisi hic laudantium error aspernatur.
-    <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos aperiam laudantium est eius dolor vel deserunt odit quaerat recusandae amet temporibus repellat dolores, architecto qui eveniet asperiores praesentium. Maxime, iure.</h5>
+     <h5 style="margin: 2% 10%;padding: 2% 5%;background: black; color: white;border-radius: 50px;">Mipsum dolor sit amet, consectetur adipisicing elit. Velit necessitatibus, dolore veritatis corporis nobis earum est, magnam provident enim quibusdam voluptatibus culpa ex natus perspiciatis nisi hic laudantium error aspernatur.
+    <br>Consectetur adipisicing elit. Dignissimos aperiam laudantium est eius dolor vel deserunt odit quaerat recusandae amet temporibus repellat dolores, architecto qui eveniet asperiores praesentium. Maxime, iure.</h5>
      <h2>Les meuilleurs boutiques</h2>
      
     
@@ -134,7 +114,7 @@ die('Erreur : '.$e->getMessage());
      <div class="di">
      <div>
      <img src="images/boutiquejpg_65265bac39ecd.jpg" alt="">
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In consectetur repellat numquam id, nobis quisquam eum officia ipsum aliquam magni libero voluptates, rerum natus recusandae doloribus asperiores aperiam corrupti sed.</p>
+     <p>Sit amet consectetur adipisicing elit. In consectetur repellat numquam id, nobis quisquam eum officia ipsum aliquam magni libero voluptates, rerum natus recusandae doloribus asperiores aperiam corrupti sed.</p>
      <p class="p"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
      <span class="i">
       <a href=""><i class="fa-solid fa-phone" style="color: rgb(4, 5, 4);"></i></a>
@@ -147,7 +127,7 @@ die('Erreur : '.$e->getMessage());
     </div>
     <div>
      <img src="images/hanna-1-MD.webp" alt="">
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In consectetur repellat numquam id, nobis quisquam eum officia ipsum aliquam magni libero voluptates, rerum natus recusandae doloribus asperiores aperiam corrupti sed.</p>
+     <p>Ipsum dolor sit amet consectetur adipisicing elit. In consectetur repellat numquam id, nobis quisquam eum officia ipsum aliquam magni libero voluptates, rerum natus recusandae doloribus asperiores aperiam corrupti sed.</p>
      <p class="p"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
     <span class="i">
      <a href=""><i class="fa-solid fa-phone" style="color: rgb(4, 5, 4);"></i></a>
@@ -160,7 +140,7 @@ die('Erreur : '.$e->getMessage());
     </div>
     <div>
      <img src="images/Les-Georgettes-Sévigné-3-BDlogos.jpg" alt="">
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In consectetur repellat numquam id, nobis quisquam eum officia ipsum aliquam magni libero voluptates, rerum natus recusandae doloribus asperiores aperiam corrupti sed.</p>
+     <p>Sum dolor sit amet consectetur adipisicing elit. In consectetur repellat numquam id, nobis quisquam eum officia ipsum aliquam magni libero voluptates, rerum natus recusandae doloribus asperiores aperiam corrupti sed.</p>
      <p class="p"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
      <span class="i">
       <a href=""><i class="fa-solid fa-phone" style="color: rgb(4, 5, 4);"></i></a>
@@ -176,7 +156,7 @@ die('Erreur : '.$e->getMessage());
     <div class="di">
     <div>
      <img src="images/salon-alliance.jpg" alt="">
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In consectetur repellat numquam id, nobis quisquam eum officia ipsum aliquam magni libero voluptates, rerum natus recusandae doloribus asperiores aperiam corrupti sed.</p>
+     <p>Rem ipsum dolor sit amet consectetur adipisicing elit. In consectetur repellat numquam id, nobis quisquam eum officia ipsum aliquam magni libero voluptates, rerum natus recusandae doloribus asperiores aperiam corrupti sed.</p>
      <p class="p"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
     <span class="i">
      <a href=""><i class="fa-solid fa-phone" style="color: rgb(4, 5, 4);"></i></a>
@@ -189,7 +169,7 @@ die('Erreur : '.$e->getMessage());
     </div>
     <div>
      <img src="images/Les-Georgettes-Sévigné-3-BDlogos.jpg" alt="">
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In consectetur repellat numquam id, nobis quisquam eum officia ipsum aliquam magni libero voluptates, rerum natus recusandae doloribus asperiores aperiam corrupti sed.</p>
+     <p>Aloremie ipsum dolor sit amet consectetur adipisicing elit. In consectetur repellat numquam id, nobis quisquam eum officia ipsum aliquam magni libero voluptates, rerum natus recusandae doloribus asperiores aperiam corrupti sed.</p>
      <p class="p"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
      <span class="i">
       <a href=""><i class="fa-solid fa-phone" style="color: rgb(4, 5, 4);"></i></a>
@@ -202,7 +182,7 @@ die('Erreur : '.$e->getMessage());
     </div>
     <div>
      <img src="images/ADD-Ferney4-edited.jpg" alt="">
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In consectetur repellat numquam id, nobis quisquam eum officia ipsum aliquam magni libero voluptates, rerum natus recusandae doloribus asperiores aperiam corrupti sed.</p>
+     <p> Psum dolor sit amet consectetur adipisicing elit. In consectetur repellat numquam id, nobis quisquam eum officia ipsum aliquam magni libero voluptates, rerum natus recusandae doloribus asperiores aperiam corrupti sed.</p>
      <p class="p"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
     <span class="i">
      <a href=""><i class="fa-solid fa-phone" style="color: rgb(4, 5, 4);"></i></a>
@@ -266,9 +246,9 @@ die('Erreur : '.$e->getMessage());
       <a class="text-reset fw-bold" href="https://mdbootstrap.com/" style="color: aliceblue;">N'ésitez pas à nous contacter</a>
     </div>
     <!-- Copyright -->
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js" integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="script3.js"></script>
 </body>
 </html>

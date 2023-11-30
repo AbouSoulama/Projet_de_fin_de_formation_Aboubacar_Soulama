@@ -67,9 +67,9 @@ die('Erreur : '.$e->getMessage());
    </nav>
    
    <div class="head">
-   <h1 style="margin-top: 0%; color: rgb(254, 105, 20);opacity: 200%;filter:brightness(3);">Contactez-nous .</h1>
+   <h1 style="margin-bottom: 18%; color: rgb(254, 105, 20);opacity: 200%;filter:brightness(3);">Contactez-nous .</h1>
    
-   <marquee behavior="" direction="right" style=" margin-top: 7%;">
+   <!-- <marquee behavior="" direction="right" style=" margin-top: 7%;">
    <img src="images/99df12c05e711dfb597c22df38c9be5f.jpg" alt="">
    <img src="images/7154b9fe16dfc2dca21f2d4dc8f6d0df.jpg" alt="">
    <img src="images/108812363-délicieuses-collations-sur-la-table-de-réception-de-mariage-dans-un-restaurant-en-plein-air-de.jpg" alt="">
@@ -87,7 +87,7 @@ die('Erreur : '.$e->getMessage());
    <img src="images/DSC7141.jpg" alt="">
    <img src="images/smiling-african-american-bridegroom-hugging-260nw-1421123387.webp" alt="">
    
-   </marquee>
+   </marquee> -->
    
    
    
@@ -146,7 +146,7 @@ die('Erreur : '.$e->getMessage());
 
 <div>
   <h1>Emplacement</h1>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Mollitia ad dolorem deserunt ratione laudantium architecto voluptatibus <br> ab delectus impedit. Necessitatibus quos repellendus ut <br> corrupti facilis autem, saepe nisi aspernatur dicta.</p>
+<p>Asipsum dolor sit, amet consectetur adipisicing elit. <br> Mollitia ad dolorem deserunt ratione laudantium architecto voluptatibus <br> ab delectus impedit. Necessitatibus quos repellendus ut <br> corrupti facilis autem, saepe nisi aspernatur dicta.</p>
       <div>
       <a href=""><i class="fa-brands fa-linkedin icon"></i></a>
       <a href=""><i class="fa-brands fa-instagram"></i></a>

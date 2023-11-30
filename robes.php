@@ -65,30 +65,13 @@ die('Erreur : '.$e->getMessage());
    </nav>
    
    <div class="head">
-   <h1 style="margin-top: -2%; color: black;padding:0% 30%;">Les robes et costumes des marié</h1>
-   
-   <marquee behavior="" direction="right" style=" margin-top: 7%;">
-   <img src="images/99df12c05e711dfb597c22df38c9be5f.jpg" alt="">
-   <img src="images/7154b9fe16dfc2dca21f2d4dc8f6d0df.jpg" alt="">
-   <img src="images/108812363-délicieuses-collations-sur-la-table-de-réception-de-mariage-dans-un-restaurant-en-plein-air-de.jpg" alt="">
-   <img src="images/214039112-wedding-first-dance-and-black-couple-in-garden-with-love-celebration-and-excited-for-future-together.jpg" alt="">
-   <img src="images/b004998d5514519c25ff20f605826a96.jpg" alt="">
-   <img src="images/depositphotos_205630694-stock-photo-wedding-day-stylish-african-groom.jpg" alt="">
-   <img src="images/download (3).jpg" alt="">
-   <img src="images/la-dot-un-element-cle-du-mariage-traditionnel-africain.jpeg" alt="">
-   <img src="images/Mariage-voici-le-budget-moyen-que-comptent-depenser-les-futurs-maries-en-2022.jpg" alt="">
-   <img src="images/download (2).jpg" alt="">
-   <img src="images/128132165-heureuse-mariée-afro-américaine-en-voile-blanc-souriant-près-du-marié-et-des-fleurs.jpg" alt="">
-   <img src="images/heureuse-mariee-marie-lors-ceremonie-mariage-ile-tropicale_53876-85586.jpg" alt="">
-   <img src="images/medium-shot-bride-and-groom-posing-outdoors_23-2150639456.jpg" alt="">
-   <img src="images/mariee-marie_1303-11471.jpg" alt="">
-   <img src="images/DSC7141.jpg" alt="">
-   <img src="images/smiling-african-american-bridegroom-hugging-260nw-1421123387.webp" alt="">
-   
-   </marquee>
+   <h1 class="anim" style="margin-bottom: 15%; color: rgb(254, 105, 20);opacity: 200%;filter:brightness(2.3);padding:0% 30%;"></h1>
+   <!-- <h1 class="anim" style="margin-top: ; color:rgb(254, 105, 20);opacity: 200%;filter:brightness(3);text-align:center;padding:0% 20%;"></h1> -->
    
    
-   <div class="ic">
+   
+   
+   <div class="ic" >
    <img src="images/63e8da9968e3262a8ae5e991_engage.png" alt="">
    <img src="images/63e8da99eaf853532d5a5eb8_maroo-p-500.png" alt="">
    <img src="images/63e8da997073807a4727846f_guides-for-brides-p-500.png" alt="">
@@ -294,6 +277,10 @@ die('Erreur : '.$e->getMessage());
     </div>
     <!-- Copyright -->
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js" integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script2.js"></script>
+    </body>
+</html>
 
 
 

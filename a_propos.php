@@ -72,7 +72,7 @@ die('Erreur : '.$e->getMessage());
    <div class="head">
    <!-- <h1 style="margin-top: -5%; color: rgb(254, 105, 20);opacity: 200%;filter:brightness(3);">Tout savoir a propos de nous.</h1> -->
   
-   <marquee behavior="" direction="right" style=" margin-top: 13%;">
+   <!-- <marquee behavior="" direction="right" style=" margin-top: 13%;">
    <img src="images/99df12c05e711dfb597c22df38c9be5f.jpg" alt="">
    <img src="images/7154b9fe16dfc2dca21f2d4dc8f6d0df.jpg" alt="">
    <img src="images/108812363-délicieuses-collations-sur-la-table-de-réception-de-mariage-dans-un-restaurant-en-plein-air-de.jpg" alt="">
@@ -90,10 +90,10 @@ die('Erreur : '.$e->getMessage());
    <img src="images/DSC7141.jpg" alt="">
    <img src="images/smiling-african-american-bridegroom-hugging-260nw-1421123387.webp" alt="">
    
-   </marquee>
+   </marquee> -->
    
    
-   <div class="ic">
+   <div class="ic" style="margin-top: 25%">
     <img src="images/63e8da9968e3262a8ae5e991_engage.png" alt="">
     <img src="images/63e8da99eaf853532d5a5eb8_maroo-p-500.png" alt="">
     <img src="images/63e8da997073807a4727846f_guides-for-brides-p-500.png" alt="">
@@ -148,7 +148,7 @@ die('Erreur : '.$e->getMessage());
 <section class="sect_17">
   <div>
     <h2>Galerie des evènements passes</h2>
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, accusantium libero. Eius iure at ab, assumenda fuga labore eaque odit ratione quasi laboriosam hic ipsam neque reiciendis magni sed est?</p>
+<p>Woman ipsum, dolor sit amet consectetur adipisicing elit. Provident, accusantium libero. Eius iure at ab, assumenda fuga labore eaque odit ratione quasi laboriosam hic ipsam neque reiciendis magni sed est?</p>
   <div class="container">
     <img src="images/smiling-african-american-bridegroom-hugging-260nw-1421123387.webp" alt="">
 <img src="images/stock-photo-loving-couple-at-an-international-wedding-at-sunset-beautiful-sophisticated-bride-of-asian-2145977163.jpg" alt="">

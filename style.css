@@ -11,7 +11,7 @@
 /* header */
 
 header{
-    background-image: linear-gradient(rgba(231, 231, 231, 0),rgba(63, 63, 63, 0.644)),url(images/eda49c8b5f20e03d8fff3dffbada6849whatsapp_image_2021-06-25_at_19.21.20.jpeg);
+    background-image: linear-gradient(rgba(231, 231, 231, 0),rgba(63, 63, 63, 0.644)),url(images/DSC7141.jpg);
     /* background-image: linear-gradient(rgba(231, 231, 231, 0),rgba(63, 63, 63, 0.644)),url(images/); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,7 +71,7 @@ padding-top: 3%;
 }
 marquee {
     margin-left: 5%;
-    margin-right: 50%;
+    margin-right: 60%;
    
     
    
@@ -80,6 +80,8 @@ marquee img{
     height: 120px;
     width: 150px;
     border-radius: 50%;
+    animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
+    animation-delay: 2s, 3s;
 }
 marquee h3{
     
@@ -88,6 +90,29 @@ marquee h3{
     font-size: 1.3rem;
     color:rgb(192, 192, 192);
     font-weight: bold;
+}
+
+
+@keyframes zoomIn{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes floatImage{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-24);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 
